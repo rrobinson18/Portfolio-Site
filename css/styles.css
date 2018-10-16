@@ -16,31 +16,32 @@ h2 {
 
 /***********HEADER SECTION***********/
 
-img .logo {
-  height: 15px;
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.header-name,
-.header-title {
-  margin-top: 0;
-  margin-bottom: 0;
+.logo {
+  max-width: 112px;
+  max-height: 112px;
 }
 
-.header-name,
-.header-title,
-.section-title {
-  font-weight: lighter;
+.col-11 {
+  align-self: flex-end;
 }
 
 .header-name {
-  font-size: 36px;
+  font-size: 4rem;
+  font-weight: normal;
+  margin: 0 0 0 0;
+  color: #2d3c49;
 }
 
-.header-title {
-  text-align: end;
-  font-size: 28px;
+.header-title{
+  text-align: right;
+  font-size: 1.2rem;
 }
-
 /**************PROJECT SECTION*****************/
 
 .section-title {
