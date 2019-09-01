@@ -1,71 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/styles.css">
 
-  <title>Udacity Portfolio Site</title>
+  <title>Rakesha McIntyre</title>
 </head>
-<body>
-      <!-- HEADER -->
-  <div class="container-fluid">
-      <header class="row pt-3 pb-3 mb-4 border-bottom">
-      <div class="col-1 col-md-1">
-            <img class="logo"  src="images/logo6.png" alt="logo">
-          </div>
-          <div class="col-11 col-md-11">
-              <h1 class="header-name text-right">
-                Rakesha McIntyre
-              </h1>
-              <h2 class="header-title text right">Front-End Developer</h2>
-            </div>
-        </header>
-        <!-- BODY -->
-  <main class="row">
-  <!--GREAT SECTION -->
-  <section class="great col-12">
-      <img class="img-fluid" src="images/computer.jpg" alt="computer setup">
-    </section>
-    <!--PROJECT SHOWCASE -->
-    <section class="projects col-12">
-      <h2 class="section-title mt-5 mb-5">Featured Work</h2>
-      <!--PROJECT CARDS -->
-<div class="project-showcase">
-    <ul class="project_list row">
-      <li class="project_list_cont col-12 col-sm-12 col-md-6 col-lg-4">
-      <div class="card">
-         <img class="project-img-top" src="images/memorygame2.png"  alt="Project1">
-         <div class="card-body">
-               <h3>Memory Game</h3>
-               <a href="https://udacitymemorygame.netlify.com/" class="btn btn-dark">View Project</a>
-          </div>
-        </div>
-      </li>
-      <li class="project_list_cont col-12 col-sm-12 col-md-6 col-lg-4">
-      <div class="card">
-    <img class="project-img-top" src="images/sunflower.png" alt="Project2">
-    <div class="card-body">
-          <h3>Project name</h3>
-          <a href="#" class="btn btn-dark">View Project</a>
+
+<body id="page-top">
+
+  <!--Navigation-->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <!-- <img src="images/logo3.png" width="130" height="100" alt="logo"> -->
+      </a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapsed"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto my-2 my-lg-0">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#">About</a>
+          </li>
+          <li>
+            <a class="nav-link js-scroll-trigger" href="#">Tools</a>
+          </li>
+          <li>
+            <a class="nav-link js-scroll-trigger" href="#">Portfolio</a>
+          </li>
+          <li>
+            <a class="nav-link js-scroll-trigger" href="#">Contact</a>
+          </li>
+        </ul>
       </div>
     </div>
-  </li>
-    <li class="project_list_cont col-12 col-sm-12 col-md-6 col-lg-4">
-    <div class="card">
-    <img class="project-img-top" src="images/bokeh.png" alt="Project3">
-    <div class="card-body">
-    <h3>Project name</h3>
-    <a href="#" class="btn btn-dark">View Project</a>
+  </nav>
+
+  <!-- Masthead -->
+  <header class="masthead">
+    <div class="overlay"></div>
+    <img src="images/slc2.jpg" alt="SLC Mountains" height="1146" weight="1080">
+
+    <div class="container h-100">
+      <div class="d-flex h-100 text-center align-items-center">
+        <div class="w-100">
+          <h1 class="display-3">Hi, I am
+            <br> Rakesha McIntyre </h1>
+          <p class="mb-5 text-blue">Full Stack Developer</p>
+          <a class="btn btn-primary btn-x1 js-scroll-trigger" href="#about">Check Me Out</a>
         </div>
-          </div>
-            </li>
-              </ul>
-          </div>
-        </section>
-      </main>
+      </div>
     </div>
-  </body>
+  </header>
+
+  <!--About Section -->
+  <section class="page-section bg-primary" id="about">
+    <div class="container">
+      <div row justify-content-center>
+        <div class="col-lg-8" text-center>
+          <h2 class="text-rustic mt-0">Here's A Little About Me</h2>
+          <hr class="divider light my-4">
+          <p class="text-white-50 mb-4">I love to code.</p>
+          <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Tell Me More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Skills Section -->
+  <section class="page-section" id="services">
+    <div class="container">
+      <h2 class="text-white-51 text-center mt-0">My Skills</h2>
+      <hr class="divider my-4">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fab fa-4x fa-html5 text-primary mb-4"></i>
+            <h3 class="h4 mb-2">HTML5</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fab fa-4x fa-html5 text-primary mb-4"></i>
+            <h3 class="h4 mb-2">CSS</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fab fa-4x fa-html5 text-primary mb-4"></i>
+            <h3 class="h4 mb-2">Javascript</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fab fa-4x fa-html5 text-primary mb-4"></i>
+            <h3 class="h4 mb-2">Bootstrap</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fab fa-4x fa-html5 text-primary mb-4"></i>
+            <h3 class="h4 mb-2">ReactJS</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fab fa-4x fa-html5 text-primary mb-4"></i>
+            <h3 class="h4 mb-2">NodeJS</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fab fa-4x fa-html5 text-primary mb-4"></i>
+            <h3 class="h4 mb-2">mySQL</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
+                <i class="fab fa-4x fa-html5 text-primary mb-4"></i>
+              <h3 class="h4 mb-2">React Natives</h3>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Portfolio Section -->
+  <section id="portfolio">  
+    <div class="container-fluid p-0">
+        <h2 class="text-white-51 text-center mt-0">Portfolio</h2>
+      <div class="row no-gutters">
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="">
+            <img class="img-fluid" src="" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                Project 1
+              </div>
+              <div class="project-name">
+                Project 1
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="">
+            <img class="img-fluid" src="" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                Project 2
+              </div>
+              <div class="project-name">
+                Project 2
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="">
+            <img class="img-fluid" src="" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                Project 3
+              </div>
+              <div class="project-name">
+                Project 3
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="page-section" id="contact">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="text-white-51">Contact Me</h2>
+          <hr class="divider my-4">
+          <p class="text-purple mb-5">Looking for a <strong>Full Stack Developer</strong> with a positive mentality, a team player and a <strong>joy</strong> to be around...Then you should contact me <strong>!!!</strong></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 ml-auto text-center text-purple mb-5 mb-lg-0">
+          <i></i>
+          <div><strong>github</strong></div>
+        </div>
+        <div class="col-lg-4 mr-auto text-purple text-center">
+          <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
+          <a class="d-block text-purple" href="mailto:robinson.rakesha@gmail.com"><strong>robinson.rakesha@gmail.com</strong></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-light py-5">
+    <div class="container">
+      <div class="small text-center text-purple">Copyright &copy; 2019 - Rakesha McIntyre  </div>
+    </div>
+  </footer>
+
+  
+
+</body>
 </html>
