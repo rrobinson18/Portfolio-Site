@@ -156,6 +156,7 @@ h1 {
 }
 
 
+
 header.masthead {
     padding-top: 10rem;
     padding-bottom: calc(10rem 72px);
@@ -197,6 +198,13 @@ header.masthead {
         height: 100%;
     }
 }
+
+#portfolio img {
+    width: 500px;
+    height: 350px;
+}
+
+
 
 header {
     position: relative;
