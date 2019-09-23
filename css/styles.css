@@ -24,6 +24,7 @@ body {
     box-sizing: border-box;
 }
 
+
 div {
     display: block;
 }
@@ -109,6 +110,7 @@ header .container {
         font-size: 3rem;
     }
 }
+
 
 header.masthead h1 {
     font-size: 3.25rem;
@@ -253,6 +255,11 @@ p {
     letter-spacing: 1px;
 }
 
+#contact p {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
 
 @media (min-width: 1200px) {
     .container {
@@ -325,6 +332,7 @@ margin-right: 15px;
 
 .page-section {
     padding: 80px 0;
+    background-color: black;
 }
 
  /* .bg-primary {
@@ -359,12 +367,15 @@ margin-right: 15px;
     padding-left: 15px;
 }
 
-
+.h4  {
+    color: #fff;
+}
 
 .fa-html5 {
     font-size: 100px;
     padding: 10px;
     color: #E34F26;
+    
 }
 
 
@@ -445,6 +456,15 @@ margin-right: 15px;
     font-size: 90px;
     color: rgb(94, 93, 93);
 }
+
+#portfolio img {
+    align-items: center !important;
+}
+
+.btn {
+    display: inline-block !important;
+}
+
 
 /* 
 
