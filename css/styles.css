@@ -369,6 +369,10 @@ img {
     border-style: none;
 }
 
+.custom-toggler .navbar-toggler {
+    border-color: white;
+}
+
 
 
  /* .bg-primary {

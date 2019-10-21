@@ -1,36 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-150533703-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150533703-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+      gtag("config", "UA-150533703-1");
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/0821bf0370.js"></script>
+    <link rel="stylesheet" href="/font-mfizz-2.4.1/font-mfizz.css" />
+    <link rel="stylesheet" href="css/styles.css" />
 
-  gtag('config', 'UA-150533703-1');
-</script>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <script src="https://kit.fontawesome.com/0821bf0370.js"></script>
-  <link rel="stylesheet" href="/font-mfizz-2.4.1/font-mfizz.css">
-  <link rel="stylesheet" href="css/styles.css">
+    <title>Rakesha McIntyre</title>
+  </head>
 
-  <title>Rakesha McIntyre</title>
-</head>
-
-<body id="page-top">
-
-  <!--Navigation-->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+  <body id="page-top">
+    <!--Navigation-->
+    <!-- <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
     <div class="container-fluid">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
       </a>
@@ -56,148 +68,195 @@
         </ul>
       </div>
     </div>
-  </nav>
+  </nav> -->
 
-  <!-- Masthead -->
-  <header class="masthead">
-    <div class="overlay">
-    <video autoplay loop class="video-bg" muted plays-inline>
-      <source src="images/chatt2.mp4" type="video/mp4">
-    </video>
-    <div class="container h-100">
-      <div class="d-flex h-100 text-center align-items-center">
-        <div class="w-100">
-          <h1 class="display-3">Hi, I am
-            <br> Rakesha McIntyre </h1>
-          <p class="mb-5 text-blue">Full Stack Developer</p>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top py-3" id="mainNav">
+      <a class="navbar-brand" href="#page-top"></a>
+      <button
+        class="navbar-toggler navbar-toggler-right custom-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#portfolio" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Masthead -->
+    <header class="masthead">
+      <div class="overlay">
+        <video autoplay loop class="video-bg" muted plays-inline>
+          <source src="images/chatt2.mp4" type="video/mp4" />
+        </video>
+        <div class="container h-100">
+          <div class="d-flex h-100 text-center align-items-center">
+            <div class="w-100">
+              <h1 class="display-3">
+                Hi, I am <br />
+                Rakesha McIntyre
+              </h1>
+              <p class="mb-5 text-blue">Full Stack Developer</p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-  </header>
+    </header>
 
-  <!--About Section -->
-  <section class="page-section" id="about">
-    <div class="container-fluid">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
-          <h2 class="text-white mt-0">Here's A Little About Me</h2>
-          <hr class="divider my-4">
-          <p class="text-white mb-4">I am a full stack developer located in Chattanooga, TN and this is what a awesome coder girl looks like. I eat! I sleep! I code! And Repeat! </p>
+    <!--About Section -->
+    <section class="page-section" id="about">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <h2 class="text-white mt-0">Here's A Little About Me</h2>
+            <hr class="divider my-4" />
+            <p class="text-white mb-4">
+              I am a full stack developer located in Chattanooga, TN and this is
+              what a awesome coder girl looks like. I eat! I sleep! I code! And
+              Repeat!
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!--Skills Section -->
-  <section class="page-section" id="skills">
-    <div class="container">
-      <h2 class="text-white text-center mt-0">My Skills</h2>
-      <hr class="divider my-4">
-      <div class="row">
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
+    <!--Skills Section -->
+    <section class="page-section" id="skills">
+      <div class="container">
+        <h2 class="text-white text-center mt-0">My Skills</h2>
+        <hr class="divider my-4" />
+        <div class="row">
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
               <i class="fab fa-html5"></i>
-            <h3 class="h4 mb-2">HTML5</h3>
+              <h3 class="h4 mb-2">HTML5</h3>
+            </div>
           </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
               <i class="fab fa-css3-alt"></i>
-            <h3 class="h4 mb-2">CSS</h3>
+              <h3 class="h4 mb-2">CSS</h3>
+            </div>
           </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
               <i class="fab fa-js-square"></i>
-            <h3 class="h4 mb-2">Javascript</h3>
+              <h3 class="h4 mb-2">Javascript</h3>
+            </div>
           </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
               <i class="fab fa-bootstrap"></i>
-            <h3 class="h4 mb-2">Bootstrap</h3>
+              <h3 class="h4 mb-2">Bootstrap</h3>
+            </div>
           </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
               <i class="fab fa-react"></i>
-            <h3 class="h4 mb-2">ReactJS</h3>
+              <h3 class="h4 mb-2">ReactJS</h3>
+            </div>
           </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
               <i class="fab fa-node"></i>
-            <h3 class="h4 mb-2">NodeJS</h3>
+              <h3 class="h4 mb-2">NodeJS</h3>
+            </div>
           </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
               <i class="icon-mysql"></i>
-            <h3 class="h4 mb-2">mySQL</h3>
+              <h3 class="h4 mb-2">mySQL</h3>
+            </div>
           </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
               <i class="icon-wordpress"></i>
-            <h3 class="h4 mb-2">WordPress</h3>
+              <h3 class="h4 mb-2">WordPress</h3>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!--Portfolio Section -->
+    <!--Portfolio Section -->
 
-  <section class="page-section" id="portfolio">
-    <div class="container-fluid">
-      <h2 class="text-white text-center mt-0">Portfolio</h2> 
-      <hr class="divider my-4">       
+    <section class="page-section" id="portfolio">
+      <div class="container-fluid">
+        <h2 class="text-white text-center mt-0">Portfolio</h2>
+        <hr class="divider my-4" />
         <div class="row pb-4">
           <div class="col-md-4">
-            <div class="card bg-dark text-white" >
-              <img class="card-img" src="images/designandbuild.png">
+            <div class="card bg-dark text-white">
+              <img class="card-img" src="images/designandbuild.png" />
               <!-- <div class="card-img-overlay">
               </div> -->
             </div>
           </div>
           <div class="col-md-8">
             <h5 class="text-white">Photographer/Chef/Barber</h5>
-            <p class="text-white">Fully responsive website built using HTML and CSS. Also used GSAP timelinemax and tweenmax to add all the Javascript Animations.</p>
+            <p class="text-white">
+              Fully responsive website built using HTML and CSS. Also used GSAP
+              timelinemax and tweenmax to add all the Javascript Animations.
+            </p>
             <div class="badges">
               <span class="badge badge-light">HTML</span>
               <span class="badge badge-light">CSS</span>
               <span class="badge badge-light">Javascript</span>
             </div>
-            <a href="https://keecodes.netlify.com/" class="btn btn-basic">Website</a>
-            <a href="https://github.com/rrobinson18/Design-and-Build" class="btn btn-basic">Github</a>
+            <a href="https://keecodes.netlify.com/" class="btn btn-basic"
+              >Website</a
+            >
+            <a
+              href="https://github.com/rrobinson18/Design-and-Build"
+              class="btn btn-basic"
+              >Github</a
+            >
           </div>
         </div>
         <div class="row pb-4">
-            <div class="col-md-4">
-              <div class="card bg-dark text-white">
-                <img class="card-img" src="images/AndreRobFront.png">
-                <!-- <div class="card-img-overlay">
+          <div class="col-md-4">
+            <div class="card bg-dark text-white">
+              <img class="card-img" src="images/AndreRobFront.png" />
+              <!-- <div class="card-img-overlay">
                 </div> -->
-              </div>
-            </div>
-            <div class="col-md-8">
-              <h5 class="text-white">Andre Robinson Official</h5>
-              <p class="text-white">Fashion Website built for client using WordPress. Custom theme styles updated using PHP. </p>
-              <div class="badges">
-                <span class="badge badge-light">WordPress</span>
-                <span class="badge badge-light">PHP</span>
-              </div>
-
-              <a href="images/DreStylesFrontPage.png" class="btn btn-basic">Website</a>
-              <!-- <a href="https://github.com/rrobinson18/DreStyles" class="btn btn-basic">Github</a> -->
             </div>
           </div>
-    </div>
-  </section>
+          <div class="col-md-8">
+            <h5 class="text-white">Andre Robinson Official</h5>
+            <p class="text-white">
+              Fashion Website built for client using WordPress. Custom theme
+              styles updated using PHP.
+            </p>
+            <div class="badges">
+              <span class="badge badge-light">WordPress</span>
+              <span class="badge badge-light">PHP</span>
+            </div>
 
+            <a href="images/DreStylesFrontPage.png" class="btn btn-basic"
+              >Website</a
+            >
+            <!-- <a href="https://github.com/rrobinson18/DreStyles" class="btn btn-basic">Github</a> -->
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <!-- <section class="page-section" id="portfolio">
+    <!-- <section class="page-section" id="portfolio">
       <div class="container">
           <h2 class="text-black mt-0">Portfolio</h2>
           <div class="row pb-4">
@@ -218,45 +277,54 @@
       </div>
     </section> -->
 
-  <!-- Contact Section -->
-  <section class="page-section" id="contact">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
-          <h2 class="text-white">Contact Me</h2>
-           <hr class="divider my-4">          
-          <p class="text-white mb-5">Looking for a <strong>Full Stack Developer</strong> with a positive mentality, a
-            team player and a <strong>joy</strong> to be around...Then you should contact me <strong>!!!</strong></p>
+    <!-- Contact Section -->
+    <section class="page-section" id="contact">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <h2 class="text-white">Contact Me</h2>
+            <hr class="divider my-4" />
+            <p class="text-white mb-5">
+              Looking for a <strong>Full Stack Developer</strong> with a
+              positive mentality, a team player and a <strong>joy</strong> to be
+              around...Then you should contact me <strong>!!!</strong>
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 ml-auto text-center text-white mb-5 mb-lg-0">
+            <a href="https://github.com/rrobinson18"
+              ><i class="fab fa-github"></i
+            ></a>
+            <div><strong>github</strong></div>
+          </div>
+          <div class="col-lg-4 ml-auto text-center text-white mb-5 mb-lg-0">
+            <a href="https://www.linkedin.com/in/rakesha-mcintyre-345032134/"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <div><strong>linkedin</strong></div>
+          </div>
+          <div class="col-lg-4 mr-auto text-white text-center">
+            <!-- <img class="mb-3 text-muted" src="images/envelope-solid.svg"  alt=""> -->
+            <a href="mailto:robinson.rakesha@gmail.com"
+              ><i class="far fa-envelope"></i
+            ></a>
+            <div><strong>email</strong></div>
+          </div>
         </div>
       </div>
+    </section>
 
-      <div class="row">
-        <div class="col-lg-4 ml-auto text-center text-white mb-5 mb-lg-0">
-          <a href="https://github.com/rrobinson18"><i class="fab fa-github"></i></a>
-          <div><strong>github</strong></div>
-        </div>
-        <div class="col-lg-4 ml-auto text-center text-white mb-5 mb-lg-0">
-          <a href="https://www.linkedin.com/in/rakesha-mcintyre-345032134/"><i class="fab fa-linkedin"></i></a>
-          <div><strong>linkedin</strong></div>
-        </div>
-        <div class="col-lg-4 mr-auto text-white text-center">
-          <!-- <img class="mb-3 text-muted" src="images/envelope-solid.svg"  alt=""> -->
-          <a href="mailto:robinson.rakesha@gmail.com"><i class="far fa-envelope"></i></a>
-          <div><strong>email</strong></div>
-
+    <!-- Footer -->
+    <footer class="bg-light py-5">
+      <div class="container">
+        <div class="small text-center text-purple">
+          Copyright &copy; 2019 - Rakesha McIntyre
         </div>
       </div>
-    </div>
-  </section>
+    </footer>
 
-  <!-- Footer -->
-  <footer class="bg-light py-5">
-    <div class="container">
-      <div class="small text-center text-purple">Copyright &copy; 2019 - Rakesha McIntyre </div>
-    </div>
-  </footer>
-
-  <script src="app.js"></script>
-</body>
-
+    <script src="app.js"></script>
+  </body>
 </html>
