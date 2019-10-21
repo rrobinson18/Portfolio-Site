@@ -364,6 +364,11 @@ margin-right: 15px;
     border-radius: calc(.25rem - 1px);
 }
 
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
 
 
  /* .bg-primary {
@@ -488,9 +493,9 @@ margin-right: 15px;
     color: rgb(94, 93, 93);
 }
 
-/* #portfolio img {
+#portfolio img {
     align-items: center !important;
-} */
+}
 
 .btn {
     display: inline-block !important;
