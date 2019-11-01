@@ -121,7 +121,6 @@ header.masthead h1 {
 }
 
 header.masthead h2 {
-    /* font-size: 3.25rem; */
     font-family: 'Titillium Web', sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -228,9 +227,6 @@ header img {
     left: 50%;
     min-width: 100%;
     min-height: 100%;
-    /* width: auto;
-    height: auto;
-    z-index: 0; */
     transform: translateX(-50%) translateY(-50%);
 }
 
@@ -243,7 +239,6 @@ header img {
 }
 
 header.masthead p {
-     /* font-size: 1.25rem !important; */
     font-family: 'Titillium Web', sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -275,12 +270,6 @@ p {
     font-size: 20px;
     letter-spacing: 2px;
 }
-/* 
-@media (max-width: 768px) {
-    #portfolio img {
-        height: 300px;
-    }
-} */
 
 @media (min-width: 1200px) {
     .container {
@@ -315,9 +304,6 @@ p {
     }
 }
 
-
-
-
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -351,14 +337,6 @@ margin-right: 15px;
     text-align: center;
   }
 
-/* .btn-full {
-    padding: 1.25rem 2.25rem;
-    font-size: 1.0rem;
-    font-weight: 700;
-    text-transform: uppercase !important;
-    border: none;
-    border-radius: 50rem;
-} */
 
 .page-section {
     padding: 80px 0;
@@ -389,12 +367,6 @@ img {
 .custom-toggler .navbar-toggler {
     border-color: white;
 }
-
-
-
- /* .bg-primary {
-    background: radial-gradient(rgb(169, 177, 178), rgba(255,255,255,1)) !important
-}  */
 
 .justify-content-center {
     -webkit-box-pack: center !important;
@@ -485,7 +457,7 @@ img {
 .fa-github {
     font-size: 80px;
     padding: 10px;
-    color: #fff;
+    /* color: #fff; */
 }
 
 .fa-github:hover {
@@ -622,62 +594,3 @@ img {
     transition: opacity 0.25s ease;
     
 }
-
-
-/***********Landing Page*********/
-
-header {
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-}
-
-.row {
-    max-width: 1140px;
-    margin: 0 auto;
-}
-
-.row a {
-    text-decoration: none;
-}
-
-.main-nav h1 {
-    display: inline-block;
-    font-size: 110%;
-    font-family: 'Dancing Script', cursive;
-    text-transform: none;
-   
-  }
- 
-   .main-nav {
-     float: right;
-     list-style: none;
-     margin-top: 55px;
-     position: relative;
-   }
- 
-   .main-nav li {
-     display: inline-block;
-     margin-left: 40px;
-   }
- 
-   .main-nav li a:link,
-   .main-nav li a:visited {
-     padding: 8px 0;
-     color: #fff;
-     text-decoration: none;
-     text-transform: uppercase;
-     font-size: 90%;
-     border-bottom: 2px solid transparent;
-     transition: border-bottom 0.2s;
-   }
- 
-   .main-nav li a:hover,
-   .main-nav li a:active {
-     border-bottom: 2px solid #ecf0f1;
-   }
- 
-   .header-compact nav {
-     color: #2f3640;
- }
-
