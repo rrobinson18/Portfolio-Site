@@ -48,6 +48,12 @@ header img {
 .navbar-light .navbar-nav .nav-link {
     color: #fff;
     background-color: transparent;
+    text-shadow: 2px 2px black;
+}
+
+.nav-link {
+    text-shadow: 2px 2px black !important;
+    font-size: 20px;
 }
 
 header .overlay {
